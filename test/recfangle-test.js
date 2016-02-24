@@ -32,4 +32,17 @@ describe('Rectangle', function(){
     });
   });
 
+  describe('#perimeter', function() {
+    it('should return the perimeter of the rectangle', function(){
+      var rect = new Rectangle(0, 0, 10, 10);
+      assert.equal(rect.perimeter, 40);
+    })
+  })
+
+  describe('#area', function() {
+    it('should return the area of the rectangle', function() {
+      var rect = new Rectangle(0, 0, 10, 10);assert.equal(rect.area, 100)
+    })
+  })
+
 });
