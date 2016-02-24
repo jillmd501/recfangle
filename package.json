@@ -1,0 +1,24 @@
+{
+  "name": "recfangle",
+  "version": "1.0.0",
+  "description": "My first node app working with rectangles",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jillmd501/recfangle.git"
+  },
+  "keywords": [
+    "rectangle",
+    "npm",
+    "node"
+  ],
+  "author": "Jill Donohue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jillmd501/recfangle/issues"
+  },
+  "homepage": "https://github.com/jillmd501/recfangle#readme"
+}
